@@ -4,10 +4,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin: 60px auto;
-}
-
 .introduction {
   margin-top: 100px;
 }
@@ -32,9 +28,7 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
   padding: 20px;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
@@ -94,4 +88,8 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+footer {
+  margin-bottom: 0px;
 }
